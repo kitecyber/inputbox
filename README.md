@@ -1,6 +1,6 @@
 # About
 
-[![GoDoc](https://godoc.org/github.com/martinlindhe/inputbox?status.svg)](https://godoc.org/github.com/martinlindhe/inputbox)
+[![GoDoc](https://godoc.org/github.com/kitecyber/inputbox?status.svg)](https://godoc.org/github.com/kitecyber/inputbox)
 
 InputBox is a simple cross-platform library for displaying desktop dialog boxes in your go application
 
@@ -10,7 +10,7 @@ InputBox is a simple cross-platform library for displaying desktop dialog boxes 
 ```go
 package main
 
-import "github.com/martinlindhe/inputbox"
+import "github.com/kitecyber/inputbox"
 
 func main() {
 	got, ok := inputbox.InputBox("Dialog title", "Type a number", "abc")
