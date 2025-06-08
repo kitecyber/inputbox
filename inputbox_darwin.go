@@ -31,6 +31,6 @@ func InputBox(title, message, defaultAnswer string) (string, bool) {
 			return "", false
 		}
 
-		message = "Input cannot be empty. Please enter a value:"
+		message = "Input cannot be empty. Please enter a value."
 	}
 }

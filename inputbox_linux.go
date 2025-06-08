@@ -32,6 +32,6 @@ func InputBox(title, message, defaultAnswer string) (string, bool) {
 			return strings.TrimSpace(string(out)), true
 		}
 
-		message = "Input cannot be empty. Please enter a value:"
+		message = "Input cannot be empty. Please enter a value."
 	}
 }
