@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/martinlindhe/inputbox"
+	"github.com/kitecyber/inputbox"
 )
 
 func main() {

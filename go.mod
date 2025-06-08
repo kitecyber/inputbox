@@ -1,8 +1,7 @@
-module github.com/martinlindhe/inputbox
+module github.com/kitecyber/inputbox
 
-go 1.16
+go 1.23.3
 
-require (
-	github.com/bhendo/go-powershell v0.0.0-20190719160123-219e7fb4e41e
-	github.com/juju/testing v0.0.0-20210324180055-18c50b0c2098 // indirect
-)
+require github.com/bhendo/go-powershell v0.0.0-20190719160123-219e7fb4e41e
+
+require github.com/juju/errors v1.0.0 // indirect
