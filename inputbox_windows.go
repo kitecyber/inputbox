@@ -10,7 +10,7 @@ import (
 // InputBox displays a dialog box, returning the entered value and a bool for success
 func InputBox(title, message, defaultAnswer string) (string, bool) {
 	for {
-		message = message + " If you hit cancel button it will snooz for 4hrs."
+		message = message + " If you hit cancel button it will snooze for 4hrs."
 		shell, err := ps.New(&backend.Local{})
 		if err != nil {
 			panic(err)
