@@ -1,4 +1,4 @@
-module github.com/johntharian28/inputbox
+module github.com/kitecyber/inputbox
 
 go 1.24.0
 
